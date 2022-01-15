@@ -1922,36 +1922,36 @@ break
 case 'othermenu':
 stamtus =`❏ 「 \`\`\`OTHER MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}searchmessage [ text|amount ]
-🐶 ${prefix}slots
-🐶 ${prefix}suit [ scissors/rock/paper ]
-🐶 ${prefix}tag [ number ]
-🐶 ${prefix}tagme
-🐶 ${prefix}tts [ code text ]
-🐶 ${prefix}readmore [ text1|text2 ]
-🐶 ${prefix}slanderpc [ number|text1|text2 ]
-🐶 ${prefix}chat [ number|text ]
-🐶 ${prefix}listgrup
-🐶 ${prefix}baileys [ reply message ]
-🐶 ${prefix}q [ reply message ]
-🐶 ${prefix}getcaption [ reply message ]
-🐶 ${prefix}shareloc [ text1|text2 ]
-🐶 ${prefix}sticker
-🐶 ${prefix}stcmeme [reply to sticker with text|text]
-🐶 ${prefix}stickerwm [ name|author ]
-🐶 ${prefix}takestick [ name|author ]
-🐶 ${prefix}dice
-🐶 ${prefix}semoji [ emoji ]
-🐶 ${prefix}attp [text]
-🐶 ${prefix}toimg
-🐶 ${prefix}tomp3 [ reply video ]
-🐶 ${prefix}tomp4 [ reply sticker gif ]
-🐶 ${prefix}robot [ reply audio ]
-🐶 ${prefix}reverse [ reply audio ]
-🐶 ${prefix}bass [ reply audio ]
-🐶 ${prefix}fat [ reply audio ]
-🐶 ${prefix}vnsec [ reply audio caption number ]
-🐶 ${prefix}vidsec [ reply video caption numbers ]
+💝 ${prefix}searchmessage [ text|amount ]
+💝 ${prefix}slots
+💝 ${prefix}suit [ scissors/rock/paper ]
+💝 ${prefix}tag [ number ]
+💝 ${prefix}tagme
+💝 ${prefix}tts [ code text ]
+💝 ${prefix}readmore [ text1|text2 ]
+💝 ${prefix}slanderpc [ number|text1|text2 ]
+💝 ${prefix}chat [ number|text ]
+💝 ${prefix}listgrup
+💝 ${prefix}baileys [ reply message ]
+💝 ${prefix}q [ reply message ]
+💝 ${prefix}getcaption [ reply message ]
+💝 ${prefix}shareloc [ text1|text2 ]
+💝 ${prefix}sticker
+💝 ${prefix}stcmeme [reply to sticker with text|text]
+💝 ${prefix}stickerwm [ name|author ]
+💝 ${prefix}takestick [ name|author ]
+💝 ${prefix}dice
+💝 ${prefix}semoji [ emoji ]
+💝 ${prefix}attp [text]
+💝 ${prefix}toimg
+💝 ${prefix}tomp3 [ reply video ]
+💝 ${prefix}tomp4 [ reply sticker gif ]
+💝 ${prefix}robot [ reply audio ]
+💝 ${prefix}reverse [ reply audio ]
+💝 ${prefix}bass [ reply audio ]
+💝 ${prefix}fat [ reply audio ]
+💝 ${prefix}vnsec [ reply audio caption number ]
+💝 ${prefix}vidsec [ reply video caption numbers ]
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1972,11 +1972,11 @@ break
  
  listMsg = {
  buttonText: 'INTAKE LIST',
- footerText: 'Doge Bot',
+ footerText: 'Selly V3',
  description: `Hi, Please select the intake menu here, use it wisely`,
  sections: [
                      {
-                      "title": `Doge Bot`,
+                      "title": `Selly V3`,
  rows: [
                           {
                              "title": "randomgirl",
@@ -2181,7 +2181,7 @@ alpha.sendMessage(from, logocrs, image, { quoted:mek,caption:'Here you go' })
 break
                          case 'wolf':
                          if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Selly*`)
                    F = body.slice(6)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/wolflogo?apikey=${zeksApikey}&text1=zeeoneofc&text2=${F}`)
@@ -2189,7 +2189,7 @@ break
                    break
                           case 't3d':
                           if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Selly*`)
                    F = body.slice(5)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/text3dbox?apikey=${zeksApikey}&text=${F}`)
@@ -2197,7 +2197,7 @@ break
                    break
        case 'logoa':
        if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Selly&lol*`)
                    var F = body.slice(7)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -2207,7 +2207,7 @@ break
                    break
        case 'phlogo':  
        if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Selly&lol*`)
                    var F = body.slice(9)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -2217,7 +2217,7 @@ break
                    break
        case 'marvel':
        if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Selly&lol*`)
                    var F = body.slice(8)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -2227,7 +2227,7 @@ break
                    break
        case 'leavest':  
        if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Selly*`)
                    F = body.slice(9)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/leavest?text=${F}&apikey=${zeksApikey}`)
@@ -2235,7 +2235,7 @@ break
                    break                   
        case 'notewrite':
        if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Selly*`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/nulis?text=${F}&apikey=${zeksApikey}`)
@@ -2243,7 +2243,7 @@ break
                    break
        case 'neon2':
        if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Selly*`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/bneon?apikey=${zeksApikey}&text=${F}`)
@@ -2338,7 +2338,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
 		      buttons = [{buttonId: `waifu`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:`owner`,buttonText:{displayText:'🦄OWNER'},type:1}]
               imageMsg = ( await alpha.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
-              buttonsMessage = {footerText:'Dont forget to donate lol ☕', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Dont forget to donate for chai', imageMessage: imageMsg,
               contentText:`Click Next to go to the next picture`,buttons,headerType:4}
               prep = await alpha.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek})
               alpha.relayWAMessage(prep)
@@ -3165,7 +3165,7 @@ let ini_list = []
 for (let i of ownerNumber) {
 const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 ini_list.push({
-"displayName": `Doge Bot Developer`,
+"displayName": `Selly V3 Developer`,
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;${NamaOwner};;;\nFN:${vname ? `${vname}` : `${NamaOwner}`}\nitem1.TEL;waid=${NomorOwner}:${NomorOwner2}\nitem1.X-ABLabel:Owner\nEND:VCARD`
 })
 }
@@ -3211,9 +3211,9 @@ anu = `──────────────────
 NOTE : _DO NOT SELL BOT SCRIPT_
 ──────────────────
 *👇SCRIPT GITHUB LINK👇*
-https://github.com/DGXeon/DogeBot2
-_BASE : Xeon Bot Inc._
-_ORI SCRIPT : Doge Bot Version 2_
+https://github.com/J-I-H-A-D/ElsaMwol-V3
+_BASE : Jhad Bot Inc._
+_ORI SCRIPT : Selly Version 3_
 _OWNER : ${NamaOwner}_
 ⍟ ────────────────── ⍟`
 buttons = [
@@ -3253,7 +3253,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 "templateMessage": {
 						"hydratedTemplate": {
 							"hydratedContentText": `Hi ${pushname} 👋`,
-							"hydratedFooterText": `Doge Bot`,
+							"hydratedFooterText": `Selly Bot`,
 							"hydratedButtons": [
 								{
 									"quickReplyButton": {
@@ -3301,12 +3301,12 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
   },
   "hydratedTemplate": {
     "hydratedContentText": `Hi ${pushname} 👋`,
-    "hydratedFooterText": `Doge Bot`,
+    "hydratedFooterText": `Selly`,
     "hydratedButtons": [
       {
         "urlButton": {
-          "displayText": `Doge Bot Script`,
-          "url": "https://github.com/DGXeon/DogeBot2"
+          "displayText": `Script`,
+          "url": "https://github.com/J-I-H-A-D"
         },
         "index": 0
       }
@@ -3532,7 +3532,7 @@ await alpha.sendMessage(from, btnharam, MessageType.buttonsMessage, {quoted: fte
 const buttons = [{buttonId: 'antidelete on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'antidelete off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const buttonMessage = {
     contentText: `${anu}`,
-    footerText: '*Doge Bot*',
+    footerText: '*Selly*',
     buttons: buttons,
     headerType: 1
 }
@@ -4332,7 +4332,7 @@ break
 buttons = [{buttonId: `menu`, buttonText: {displayText: '🐶MENU🐶'}, type: 1},{buttonId: `owner`, buttonText: {displayText: '👤OWNER👤'}, type: 1}]
 const btnbc = {
     contentText: `${body.slice(4)}`,
-    footerText: '*_Doge Bot BROADCAST_*',
+    footerText: '*_SELLY BROADCAST_*',
     buttons: buttons,
     headerType: 1
 }
@@ -5236,21 +5236,21 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
                 const filter1 = await ytsd.getFilters(input)
                 const filters1 = filter1.get('Type').get('Video')
                 const { items } = await ytsd(filters1.url, { limit: 10 })
-                let hehe = `*🐶 YOUTUBE SEARCH*
-*🐶 Search Query:* ${input}\n\n`
+                let hehe = `*💝 YOUTUBE SEARCH*
+*💝 Search Query:* ${input}\n\n`
                 for (let i = 0; i < items.length; i++) {
                     hehe += `───────────────\n
-*🐶 Title:* ${items[i].title}
-*🐶 Id:* ${items[i].id}
-*🐶 Watched:* ${items[i].views}
-*🐶 Duration:* ${items[i].duration}
-*🐶 Link:* ${items[i].url}\n\n`
+*💝 Title:* ${items[i].title}
+*💝 Id:* ${items[i].id}
+*💝 Watched:* ${items[i].views}
+*💝 Duration:* ${items[i].duration}
+*💝 Link:* ${items[i].url}\n\n`
                 }
                 thumb = await getBuffer(items[0].bestThumbnail.url)
                 await alpha.sendMessage(from, thumb, image, {quoted: mek, caption: `${hehe}───────────────\n
 *- HOW TO DOWNLOAD -*
-🐶 ${prefix}ytmp3 [link yt]
-🐶 ${prefix}ytmp4 [link yt]
+💝 ${prefix}ytmp3 [link yt]
+💝 ${prefix}ytmp4 [link yt]
 
 _Example:_
 #ytmp3 https://www.youtube.com/watch?v=pT9U15nER7s
