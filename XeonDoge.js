@@ -642,7 +642,7 @@ options
 
 const daftar1 = `*Hi ${pushname}* 👋\n*Please Verify First*`
 const daftar2 = '_Click the button below to verify_'
-const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `🐶VERIFY🐶`,},type: 1,},]
+const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `VERIFY❤`,},type: 1,},]
 
 const createSerial = (size) => {
 return crypto.randomBytes(size).toString('hex').slice(0, size)
@@ -716,7 +716,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
             if (isAfk(mek.key.remoteJid)) return
             addafk(mek.key.remoteJid)
 			heheh = ms(Date.now() - waktuafk)
-		  sendButMessage(from, `Hi ${pushname}, Sorry it seems at this time ${NamaOwner} is offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minute, ${heheh.seconds} Second\n\nPlease contact again after Online`, "*Doge Bot*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
+		  sendButMessage(from, `Hi ${pushname}, Sorry it seems at this time ${NamaOwner} is offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minute, ${heheh.seconds} Second\n\nPlease contact again after Online`, "*Selly V3*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: false}})
 			}
 		}
 		if (mek.key.remoteJid.endsWith('@g.us') && offline) {
@@ -729,7 +729,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                         if (isAfk(mek.key.remoteJid)) return
                         addafk(mek.key.remoteJid)
 						heheh = ms(Date.now() - waktuafk)
-			       sendButMessage(from, `Hi ${pushname}, Sorry it seems at this time ${NamaOwner} is offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minute, ${heheh.seconds} Second\n\nPlease contact again after Online`, "*Doge Bot*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
+			       sendButMessage(from, `Hi ${pushname}, Sorry it seems at this time ${NamaOwner} is offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minute, ${heheh.seconds} Second\n\nPlease contact again after Online`, "*Selly V3*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: false}})
 					}
 				}
 						}
@@ -738,7 +738,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
 			}
 		}
 		const sendStickerUrl = async(to, url) => {
-			console.log(color(time, 'magenta'), color(moment.tz('Asia/Jakarta').format('HH:mm:ss'), "gold"), color('Downloading sticker'))
+			console.log(color(time, 'magenta'), color(moment.tz('Asia/Kolkata').format('HH:mm:ss'), "gold"), color('Downloading sticker'))
 				var names = getRandom('.webp')
 				var namea = getRandom('.png')
 				var download = function (uri, filename, callback) {
@@ -780,7 +780,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
             }
             const sendKontak = (from, nomor, nama) => {
 	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:Doge Bot Owner\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
-	        alpha.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {quoted:mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
+	        alpha.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {quoted:mek, contextInfo: { forwardingScore: 508, isForwarded: false }})
             }
             const hideTagKontak = async function(from, nomor, nama){
 	        let vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + 'ORG:Kontak\n' + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
@@ -1217,20 +1217,20 @@ tod = `┏━━━━━━━━━━━━━━━━━━━━
 ⬡ ${z}Owner Number : ${NomorOwner}${z}
 ┗━━━━━━━━━━━━━━━━━━`
 tod2 =`┏━━━❒ *MENU LIST*
-${z}🐶 ${prefix}soundmenu${z}
-${z}🐶 ${prefix}rentbot${z}
-${z}🐶 ${prefix}status${z}
-${z}🐶 ${prefix}intakemenu${z}
-${z}🐶 ${prefix}runtime${z}
-${z}🐶 ${prefix}makermenu${z}
-${z}🐶 ${prefix}ownermenu${z}
-${z}🐶 ${prefix}groupmenu${z}
-${z}🐶 ${prefix}othermenu${z}
-${z}🐶 ${prefix}downloadmenu${z}
-${z}🐶 ${prefix}funmenu${z}
-${z}🐶 ${prefix}nsfwmenu${z}
-${z}🐶 ${prefix}animemenu${z}
-    watch how you can install this bot in your whatsapp: https://youtu.be/zXvwqA8LvTw
+${z}💝 ${prefix}soundmenu${z}
+${z}💝 ${prefix}rentbot${z}
+${z}💝 ${prefix}status${z}
+${z}💝 ${prefix}intakemenu${z}
+${z}💝 ${prefix}runtime${z}
+${z}💝 ${prefix}makermenu${z}
+${z}💝 ${prefix}ownermenu${z}
+${z}💝 ${prefix}groupmenu${z}
+${z}💝 ${prefix}othermenu${z}
+${z}💝 ${prefix}downloadmenu${z}
+${z}💝 ${prefix}funmenu${z}
+${z}💝 ${prefix}nsfwmenu${z}
+${z}💝 ${prefix}animemenu${z}
+    watch how you can install this bot in your whatsapp: wa.me/917736703116
 ┗━━━━━━━━━━━━━━━━━`
 buttons = [
 {buttonId:`scbot`, buttonText: {displayText: 'BOT SCRIPT🔖'}, type: 1},
@@ -1482,39 +1482,39 @@ case 'funmenu':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
 stamtus = `❏ 「 \`\`\`FUN MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}stupid
-🐶 ${prefix}foolish
-🐶 ${prefix}smart
-🐶 ${prefix}handsome
-🐶 ${prefix}beautiful
-🐶 ${prefix}gay
-🐶 ${prefix}lesbi
-🐶 ${prefix}bastard
-🐶 ${prefix}stubble
-🐶 ${prefix}dog
-🐶 ${prefix}fuck
-🐶 ${prefix}ugly
-🐶 ${prefix}ape
-🐶 ${prefix}cute
-🐶 ${prefix}noob
-🐶 ${prefix}kind
-🐶 ${prefix}great
-🐶 ${prefix}horny
-🐶 ${prefix}wibu
-🐶 ${prefix}asshole
-🐶 ${prefix}truth
-🐶 ${prefix}dare
-🐶 ${prefix}tod
-🐶 ${prefix}couple
-🐶 ${prefix}ship [tag1|tag2]
-🐶 ${prefix}handsomecheck [tag]
-🐶 ${prefix}beautycheck [tag]
-🐶 ${prefix}gaycheck [tag]
-🐶 ${prefix}lesbiancheck [tag]
-🐶 ${prefix}charactercheck [tag]
-🐶 ${prefix}is [text]
-🐶 ${prefix}when [text]
-🐶 ${prefix}can [text]
+💝 ${prefix}stupid
+💝 ${prefix}foolish
+💝 ${prefix}smart
+💝 ${prefix}handsome
+💝 ${prefix}beautiful
+💝 ${prefix}gay
+💝 ${prefix}lesbi
+💝 ${prefix}bastard
+💝 ${prefix}stubble
+💝 ${prefix}dog
+💝 ${prefix}fuck
+💝 ${prefix}ugly
+💝 ${prefix}ape
+💝 ${prefix}cute
+💝 ${prefix}noob
+💝 ${prefix}kind
+💝 ${prefix}great
+💝 ${prefix}horny
+💝 ${prefix}wibu
+💝 ${prefix}asshole
+💝 ${prefix}truth
+💝 ${prefix}dare
+💝 ${prefix}tod
+💝 ${prefix}couple
+💝 ${prefix}ship [tag1|tag2]
+💝 ${prefix}handsomecheck [tag]
+💝 ${prefix}beautycheck [tag]
+💝 ${prefix}gaycheck [tag]
+💝 ${prefix}lesbiancheck [tag]
+💝 ${prefix}charactercheck [tag]
+💝 ${prefix}is [text]
+💝 ${prefix}when [text]
+💝 ${prefix}can [text]
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT🔖'},type:1},
@@ -1532,39 +1532,39 @@ case 'groupmenu':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
 stamtus = `❏ 「 \`\`\`GROUP MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}getpict [ @tag ]
-🐶 ${prefix}getname [ reply target ]
-🐶 ${prefix}getbio [ reply target ]
-🐶 ${prefix}promote [ @tag ]
-🐶 ${prefix}demote [ @tag ]
-🐶 ${prefix}antilink [ on/off ]
-🐶 ${prefix}antivirtex [ on/off ]
-🐶 ${prefix}antiwame [ on/off ]
-🐶 ${prefix}antibug [ on/off ]
-🐶 ${prefix}creategrup [ name|@tag ]
-🐶 ${prefix}tictactoe [ @tag ]
-🐶 ${prefix}nsfw [1/0]
-🐶 ${prefix}delttt
-🐶 ${prefix}getpp
-🐶 ${prefix}getdescgc
-🐶 ${prefix}sider [ reply to bot messages ]
-🐶 ${prefix}hacked [text]
-🐶 ${prefix}setnamegc [text]
-🐶 ${prefix}setdescgc [*text]
-🐶 ${prefix}slander [ @tag|text1|text2 ]
-🐶 ${prefix}contag [number|name]
-🐶 ${prefix}scontact [ @tag|name ]
-🐶 ${prefix}autojoin
-🐶 ${prefix}join [group link]
-🐶 ${prefix}opengc
-🐶 ${prefix}closegc
-🐶 ${prefix}resetgclink
-🐶 ${prefix}grouplink
-🐶 ${prefix}hidetag [text]
-🐶 ${prefix}sticktag [ sticker name ]
-🐶 ${prefix}totag [ reply media ]
-🐶 ${prefix}tagall
-🐶 ${prefix}tagsomeone [number]
+💝 ${prefix}getpict [ @tag ]
+💝 ${prefix}getname [ reply target ]
+💝 ${prefix}getbio [ reply target ]
+💝 ${prefix}promote [ @tag ]
+💝 ${prefix}demote [ @tag ]
+💝 ${prefix}antilink [ on/off ]
+💝 ${prefix}antivirtex [ on/off ]
+💝 ${prefix}antiwame [ on/off ]
+💝 ${prefix}antibug [ on/off ]
+💝 ${prefix}creategrup [ name|@tag ]
+💝 ${prefix}tictactoe [ @tag ]
+💝 ${prefix}nsfw [1/0]
+💝 ${prefix}delttt
+💝 ${prefix}getpp
+💝 ${prefix}getdescgc
+💝 ${prefix}sider [ reply to bot messages ]
+💝 ${prefix}hacked [text]
+💝 ${prefix}setnamegc [text]
+💝 ${prefix}setdescgc [*text]
+💝 ${prefix}slander [ @tag|text1|text2 ]
+💝 ${prefix}contag [number|name]
+💝 ${prefix}scontact [ @tag|name ]
+💝 ${prefix}autojoin
+💝 ${prefix}join [group link]
+💝 ${prefix}opengc
+💝 ${prefix}closegc
+💝 ${prefix}resetgclink
+💝 ${prefix}grouplink
+💝 ${prefix}hidetag [text]
+💝 ${prefix}sticktag [ sticker name ]
+💝 ${prefix}totag [ reply media ]
+💝 ${prefix}tagall
+💝 ${prefix}tagsomeone [number]
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1585,7 +1585,7 @@ const serialUser = createSerial(18)
 	        _registered.push(sender)
 	        fs.writeFileSync('./database/registered.json', JSON.stringify(_registered))
 	        addRegisteredUser(sender, serialUser)
-	         const jancok = `┏━━━❒ *Verified* ❒━━━━
+	         const jancok = `┏━━━❒ *Verified🌟* ❒━━━━
 ⬡ *Series : ${serialUser}*	         
 ⬡ *Name : ${pushname}*
 ⬡ *Whatsapp : ${sender.split('@')[0]}*
@@ -1612,7 +1612,7 @@ case 'listmenu':
  description: `_*Hi, please choose the menu*_`,
  sections: [
                      {
-                      "title": `Doge Bot`,
+                      "title": `Selly Userbot V3`,
  rows: [
                           {
                               "title": "SellBot",
@@ -1684,12 +1684,12 @@ case 'nsfwmenu':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
 stamtus = `❏ 「 \`\`\`18+ MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}hentai
-🐶 ${prefix}blowjob
-🐶 ${prefix}awoo
-🐶 ${prefix}neko
-🐶 ${prefix}megumin2
-🐶 ${prefix}trapnime
+💝 ${prefix}hentai
+💝 ${prefix}blowjob
+💝 ${prefix}awoo
+💝 ${prefix}neko
+💝 ${prefix}megumin2
+💝 ${prefix}trapnime
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1707,12 +1707,12 @@ await alpha.sendMessage(from, funn, MessageType.buttonsMessage, {quoted: ftex})
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
 stamtus = `❏ 「 \`\`\`18+ MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}waifu
-🐶 ${prefix}loli
-🐶 ${prefix}husbu
-🐶 ${prefix}milf
-🐶 ${prefix}cosplay
-🐶 ${prefix}wallml
+💝 ${prefix}waifu
+💝 ${prefix}loli
+💝 ${prefix}husbu
+💝 ${prefix}milf
+💝 ${prefix}cosplay
+💝 ${prefix}wallml
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1729,16 +1729,16 @@ await alpha.sendMessage(from, animerandomx, MessageType.buttonsMessage, {quoted:
 case 'soundmenu':
 stamtus =`❏ 「 \`\`\`SOUND MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}sound1
-🐶 ${prefix}sound2
-🐶 ${prefix}sound3
-🐶 ${prefix}sound4
-🐶 ${prefix}sound5
-🐶 ${prefix}sound6
-🐶 ${prefix}sound7
-🐶 ${prefix}sound8
-🐶 ${prefix}sound9
-🐶 ${prefix}sound10
+💝 ${prefix}sound1
+💝 ${prefix}sound2
+💝 ${prefix}sound3
+💝 ${prefix}sound4
+💝 ${prefix}sound5
+💝 ${prefix}sound6
+💝 ${prefix}sound7
+💝 ${prefix}sound8
+💝 ${prefix}sound9
+💝 ${prefix}sound10
 
 [ Total Sound 1-75 ]
 ────────────────────`
@@ -1757,65 +1757,65 @@ break
 case 'ownermenu':
 stamtus =`❏ 「 \`\`\`OWNER MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}rentbot
-🐶 ${prefix}autoresponse
-🐶 ${prefix}bc [ text ]
-🐶 ${prefix}tobc [ reply sticker/audio ]
-🐶 ${prefix}return [ javascript ]
-🐶 ${prefix}clearall
-🐶 ${prefix}delchat
-🐶 ${prefix}mute
-🐶 ${prefix}unmute
-🐶 ${prefix}public
-🐶 ${prefix}self
-🐶 ${prefix}spam [ text|amount ]
-🐶 ${prefix}tospam [ reply sticker|total ]
-🐶 ${prefix}demoteall
-🐶 ${prefix}promoteall
-🐶 ${prefix}addcmd [ reply text stc ]
-🐶 ${prefix}delcmd [ reply stc ]
-🐶 ${prefix}listcmd
-🐶 ${prefix}spamsw [ text|amount ]
-🐶 ${prefix}upswtext [text]
-🐶 ${prefix}upswloc [text]
-🐶 ${prefix}upswaudio [ reply audio ]
-🐶 ${prefix}upswvoice [ reply audio ]
-🐶 ${prefix}upswsticker [ reply sticker ]
-🐶 ${prefix}upswimage [ reply image ]
-🐶 ${prefix}upswgif [ reply gif ]
-🐶 ${prefix}upswvideo [ reply video ]
-🐶 ${prefix}shutdown
-🐶 ${prefix}offline [ reason ]
-🐶 ${prefix}online
-🐶 ${prefix}exif [ nama|author ]
-🐶 ${prefix}setprofile [ reply image ]
-🐶 ${prefix}setname [text]
-🐶 ${prefix}setprefix [ multi/nopref/prefix ]
-🐶 ${prefix}setbio [text]
-🐶 ${prefix}leave
-🐶 ${prefix}restart
-🐶 ${prefix}addresponse [ ask|answer ]
-🐶 ${prefix}delresponse [ name ]
-🐶 ${prefix}listresponse
-🐶 ${prefix}addvn [reply audio with caption]
-🐶 ${prefix}delvn [vn name]
-🐶 ${prefix}listvn
-🐶 ${prefix}addsticker [reply sticker with caption]
-🐶 ${prefix}delsticker [sticker name]
-🐶 ${prefix}liststicker
-🐶 ${prefix}addimage [reply image with caption]
-🐶 ${prefix}delimage [image name]
-🐶 ${prefix}imagelist
-🐶 ${prefix}readall
-🐶 ${prefix}unreadall
-🐶 ${prefix}archive
-🐶 ${prefix}unarchiveall
-🐶 ${prefix}pin
-🐶 ${prefix}unpin
-🐶 ${prefix}leavetime [ sec/min/hr ]
-🐶 ${prefix}opentime [ sec/min/hr ]
-🐶 ${prefix}closetime [ sec/min/hr ]
-🐶 ${prefix}nano [ filename ]
+💝 ${prefix}rentbot
+💝 ${prefix}autoresponse
+💝 ${prefix}bc [ text ]
+💝 ${prefix}tobc [ reply sticker/audio ]
+💝 ${prefix}return [ javascript ]
+💝 ${prefix}clearall
+💝 ${prefix}delchat
+💝 ${prefix}mute
+💝 ${prefix}unmute
+💝 ${prefix}public
+💝 ${prefix}self
+💝 ${prefix}spam [ text|amount ]
+💝 ${prefix}tospam [ reply sticker|total ]
+💝 ${prefix}demoteall
+💝 ${prefix}promoteall
+💝 ${prefix}addcmd [ reply text stc ]
+💝 ${prefix}delcmd [ reply stc ]
+💝 ${prefix}listcmd
+💝 ${prefix}spamsw [ text|amount ]
+💝 ${prefix}upswtext [text]
+💝 ${prefix}upswloc [text]
+💝 ${prefix}upswaudio [ reply audio ]
+💝 ${prefix}upswvoice [ reply audio ]
+💝 ${prefix}upswsticker [ reply sticker ]
+💝 ${prefix}upswimage [ reply image ]
+💝 ${prefix}upswgif [ reply gif ]
+💝 ${prefix}upswvideo [ reply video ]
+💝 ${prefix}shutdown
+💝 ${prefix}offline [ reason ]
+💝 ${prefix}online
+💝 ${prefix}exif [ nama|author ]
+💝 ${prefix}setprofile [ reply image ]
+💝 ${prefix}setname [text]
+💝 ${prefix}setprefix [ multi/nopref/prefix ]
+💝 ${prefix}setbio [text]
+💝 ${prefix}leave
+💝 ${prefix}restart
+💝 ${prefix}addresponse [ ask|answer ]
+💝 ${prefix}delresponse [ name ]
+💝 ${prefix}listresponse
+💝 ${prefix}addvn [reply audio with caption]
+💝 ${prefix}delvn [vn name]
+💝 ${prefix}listvn
+💝 ${prefix}addsticker [reply sticker with caption]
+💝 ${prefix}delsticker [sticker name]
+💝 ${prefix}liststicker
+💝 ${prefix}addimage [reply image with caption]
+💝 ${prefix}delimage [image name]
+💝 ${prefix}imagelist
+💝 ${prefix}readall
+💝 ${prefix}unreadall
+💝 ${prefix}archive
+💝 ${prefix}unarchiveall
+💝 ${prefix}pin
+💝 ${prefix}unpin
+💝 ${prefix}leavetime [ sec/min/hr ]
+💝 ${prefix}opentime [ sec/min/hr ]
+💝 ${prefix}closetime [ sec/min/hr ]
+💝 ${prefix}nano [ filename ]
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1833,34 +1833,34 @@ case 'downloadmenu':
 case 'donwloadmenu':
 stamtus =`❏ 「 \`\`\`DOWNLOAD MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}herolist
-🐶 ${prefix}herodetail [ hero ]
-🐶 ${prefix}google [ search ]
-🐶 ${prefix}gimage [ search ]
-🐶 ${prefix}wiki [ search ] _indo_
-🐶 ${prefix}mediafire [ link ]
-🐶 ${prefix}facebook [ fb link ]
-🐶 ${prefix}facebook2 [ fb link ]
-🐶 ${prefix}twitter [ twitter video link ]
-🐶 ${prefix}twmp3 [ twitter video link ]
-🐶 ${prefix}twitter2 [ twitter video link ]
-🐶 ${prefix}ytmp4 [ yt link ]
-🐶 ${prefix}ytmp3 [ yt link ]
-🐶 ${prefix}play [ song title ]
-🐶 ${prefix}tiktok [ link ]
-🐶 ${prefix}video [ video title ]
-🐶 ${prefix}tinyurl [ link ]
-🐶 ${prefix}fetch [ link ]
-🐶 ${prefix}instagram [insta normal video link ] 
-🐶 ${prefix}pinterest [ search ]
-🐶 ${prefix}lyrics [ title ]
-🐶 ${prefix}tourl [ reply image/video ]
-🐶 ${prefix}numbers [ number ]
-🐶 ${prefix}calculator [ number ]
-🐶 ${prefix}fancytext [text]
-🐶 ${prefix}githubstalk [ username ]
-🐶 ${prefix}translate [ code text ]
-🐶 ${prefix}ss [ link ]
+💝 ${prefix}herolist
+💝 ${prefix}herodetail [ hero ]
+💝 ${prefix}google [ search ]
+💝 ${prefix}gimage [ search ]
+💝 ${prefix}wiki [ search ] _indo_
+💝 ${prefix}mediafire [ link ]
+💝 ${prefix}facebook [ fb link ]
+💝 ${prefix}facebook2 [ fb link ]
+💝 ${prefix}twitter [ twitter video link ]
+💝 ${prefix}twmp3 [ twitter video link ]
+💝 ${prefix}twitter2 [ twitter video link ]
+💝 ${prefix}ytmp4 [ yt link ]
+💝 ${prefix}ytmp3 [ yt link ]
+💝 ${prefix}play [ song title ]
+💝 ${prefix}tiktok [ link ]
+💝 ${prefix}video [ video title ]
+💝 ${prefix}tinyurl [ link ]
+💝 ${prefix}fetch [ link ]
+💝 ${prefix}instagram [insta normal video link ] 
+💝 ${prefix}pinterest [ search ]
+💝 ${prefix}lyrics [ title ]
+💝 ${prefix}tourl [ reply image/video ]
+💝 ${prefix}numbers [ number ]
+💝 ${prefix}calculator [ number ]
+💝 ${prefix}fancytext [text]
+💝 ${prefix}githubstalk [ username ]
+💝 ${prefix}translate [ code text ]
+💝 ${prefix}ss [ link ]
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1877,35 +1877,35 @@ break
 case 'makermenu':
 stamtus =`❏ 「 \`\`\`MAKER MENU\`\`\` 」
 ────────────────────
-_example: ${prefix}throne Xeon_
+_example: ${prefix}throne Selly_
 ────────────────────
-🐶 ${prefix}write 「 text 」
-🐶 ${prefix}throne 「 text 」
-🐶 ${prefix}logoff 「 text 」
-🐶 ${prefix}cslogo 「 text 」
-🐶 ${prefix}matrix 「 text 」
-🐶 ${prefix}skytext 「 text 」
-🐶 ${prefix}barcode 「 text 」
-🐶 ${prefix}narutotxt 「 text 」
-🐶 ${prefix}bneon 「 text 」
-🐶 ${prefix}tfire 「 text 」
-🐶 ${prefix}light 「 text 」
-🐶 ${prefix}wall 「 text 」
-🐶 ${prefix}dropair 「 text 」
-🐶 ${prefix}wolf 「 text 」
-🐶 ${prefix}logocrs 「 text 」
-🐶 ${prefix}phlogo 「 text 」
-🐶 ${prefix}phcomment 「 *text|text 」
-🐶 ${prefix}pubg 「 text|text 」
-🐶 ${prefix}leavest 「 text 」
-🐶 ${prefix}notewrite 「 text 」
-🐶 ${prefix}neon2 「 text 」
-🐶 ${prefix}marvel 「 text|text 」
-🐶 ${prefix}logoa 「 text|text 」
-🐶 ${prefix}t3d 「 text 」
-🐶 ${prefix}flower 「 text 」
-🐶 ${prefix}gplay 「 text 」
-🐶 ${prefix}splay 「 text 」
+💝 ${prefix}write 「 text 」
+💝 ${prefix}throne 「 text 」
+💝 ${prefix}logoff 「 text 」
+💝 ${prefix}cslogo 「 text 」
+💝 ${prefix}matrix 「 text 」
+💝 ${prefix}skytext 「 text 」
+💝 ${prefix}barcode 「 text 」
+💝 ${prefix}narutotxt 「 text 」
+💝 ${prefix}bneon 「 text 」
+💝 ${prefix}tfire 「 text 」
+💝 ${prefix}light 「 text 」
+💝 ${prefix}wall 「 text 」
+💝 ${prefix}dropair 「 text 」
+💝 ${prefix}wolf 「 text 」
+💝 ${prefix}logocrs 「 text 」
+💝 ${prefix}phlogo 「 text 」
+💝 ${prefix}phcomment 「 *text|text 」
+💝 ${prefix}pubg 「 text|text 」
+💝 ${prefix}leavest 「 text 」
+💝 ${prefix}notewrite 「 text 」
+💝 ${prefix}neon2 「 text 」
+💝 ${prefix}marvel 「 text|text 」
+💝 ${prefix}logoa 「 text|text 」
+💝 ${prefix}t3d 「 text 」
+💝 ${prefix}flower 「 text 」
+💝 ${prefix}gplay 「 text 」
+💝 ${prefix}splay 「 text 」
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
