@@ -107,7 +107,7 @@ const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
-fake = "Doge Bot";
+fake = "Selly V3";
 autorespon = settings.AutoRespon
 playmusic = settings.AutoMusic
 antidelete = settings.AntiDelete
@@ -141,7 +141,7 @@ zeksApikey = 'Alphabott'
 YuzApi = 'Yuzzu'
 zerkey = settings.Zerkey
 lolkey = 'KurrXd'
-const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
+const time = moment().tz('Asia/Kolkata').format("HH:mm:ss")
 
 function kyun(seconds) {
 	function pad(s) {
@@ -249,10 +249,10 @@ try {
 		const from = mek.key.remoteJid
 		const type = Object.keys(mek.message)[0]
 		const { text, extendedText, contact, location, liveLocation, image, video, sticker, document, audio } = MessageType
-		const time = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
-		const timeWib = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
-		const timeWita = moment().tz('Asia/Makassar').format('DD/MM HH:mm:ss')
-        const timeWit = moment().tz('Asia/Jayapura').format('DD/MM HH:mm:ss')
+		const time = moment.tz('Asia/Kolkata').format('DD/MM HH:mm:ss')
+		const timeWib = moment.tz('Asia/Kolkata').format('DD/MM HH:mm:ss')
+		const timeWita = moment().tz('Asia/Kolkata').format('DD/MM HH:mm:ss')
+        const timeWit = moment().tz('Asia/Kolkata').format('DD/MM HH:mm:ss')
 		const cmd = (type === 'conversation' && mek.message.conversation) ? mek.message.conversation : (type == 'imageMessage') && mek.message.imageMessage.caption ? mek.message.imageMessage.caption : (type == 'videoMessage') && mek.message.videoMessage.caption ? mek.message.videoMessage.caption : (type == 'extendedTextMessage') && mek.message.extendedTextMessage.text ? mek.message.extendedTextMessage.text : (type == 'stickerMessage') && (getCmd(mek.message.stickerMessage.fileSha256.toString('hex')) !== null && getCmd(mek.message.stickerMessage.fileSha256.toString('base64')) !== undefined) ? getCmd(mek.message.stickerMessage.fileSha256.toString('base64')) : "".slice(1).trim().split(/ +/).shift().toLowerCase()
 		alpha.on("CB:action,,battery", json => {
 	    const battery = json[2][0][1].value
@@ -337,11 +337,11 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
 }
 		if (antibot === true) return
 		const katalog = (teks) => {
-             res = alpha.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*Doge Bot*", "thumbnail": ftex, "surface": 'CATALOG' }}, {quoted:ftex})
+             res = alpha.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*Selly V3*", "thumbnail": ftex, "surface": 'CATALOG' }}, {quoted:ftex})
              alpha.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = alpha.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/G3a3AQndqS5J45eD7zznXF', "groupName": `Xeon Bot Inc.`, "footerText": "*Doge Bot*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
+        	grup = alpha.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '447418339504-1634470295@g.us', "inviteCode": 'https://chat.whatsapp.com/G1TzLSNyzgb7DFo2moyvuj', "groupName": `Jhad Bot Inc.`, "footerText": "*Selly Bot*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
             alpha.relayWAMessage(grup)
         }
 		idttt = []
@@ -370,33 +370,33 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
 			var ase = new Date();
                         var jamss = ase.getHours();
                          switch(jamss){
-                case 0: jamss = "Doge Bot"; break;
-                case 1: jamss = "Doge Bot"; break;
-                case 2: jamss = "Doge Bot"; break;
-                case 3: jamss = "Doge Bot"; break;
-                case 4: jamss = "Doge Bot"; break;
-                case 5: jamss = "Doge Bot"; break;
-                case 6: jamss = "Doge Bot"; break;
-                case 7: jamss = "Doge Bot"; break;
-                case 8: jamss = "Doge Bot"; break;
-                case 9: jamss = "Doge Bot"; break;
-                case 10: jamss = "Doge Bot"; break;
-                case 11: jamss = "Doge Bot"; break;
-                case 12: jamss = "Doge Bot"; break;
-                case 13: jamss = "Doge Bot"; break;
-                case 14: jamss = "Doge Bot"; break;
-                case 15: jamss = "Doge Bot"; break;
-                case 16: jamss = "Doge Bot"; break;
-                case 17: jamss = "Doge Bot"; break;
-                case 18: jamss = "Doge Bot"; break;
-                case 19: jamss = "Doge Bot"; break;
-                case 20: jamss = "Doge Bot"; break;
-                case 21: jamss = "Doge Bot"; break;
-                case 22: jamss = "Doge Bot"; break;
-                case 23: jamss = "Doge Bot"; break;
+                case 0: jamss = "Selly Bot"; break;
+                case 1: jamss = "Selly Bot"; break;
+                case 2: jamss = "Selly Bot"; break;
+                case 3: jamss = "Selly Bot"; break;
+                case 4: jamss = "Selly Bot"; break;
+                case 5: jamss = "Selly Bot"; break;
+                case 6: jamss = "Selly Bot"; break;
+                case 7: jamss = "Selly Bot"; break;
+                case 8: jamss = "Selly Bot"; break;
+                case 9: jamss = "Selly Bot"; break;
+                case 10: jamss = "Selly Bot"; break;
+                case 11: jamss = "Selly Bot"; break;
+                case 12: jamss = "Selly Bot"; break;
+                case 13: jamss = "Selly Bot"; break;
+                case 14: jamss = "Selly Bot"; break;
+                case 15: jamss = "Selly Bot"; break;
+                case 16: jamss = "Selly Bot"; break;
+                case 17: jamss = "Selly Bot"; break;
+                case 18: jamss = "Selly Bot"; break;
+                case 19: jamss = "Selly Bot"; break;
+                case 20: jamss = "Selly Bot"; break;
+                case 21: jamss = "Selly Bot"; break;
+                case 22: jamss = "Selly Bot"; break;
+                case 23: jamss = "Selly Bot"; break;
             }
             var tampilUcapan = "" + jamss;
-            const jmn = moment.tz('Asia/Jakarta').format('HH.mm')
+            const jmn = moment.tz('Asia/Kolkata').format('HH.mm')
 				let d = new Date
 				let locale = 'id'
 				let gmt = new Date(0).getTime() - new Date('1 Januari 2021').getTime()
@@ -407,7 +407,7 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
 				month: 'long',
 				year: 'numeric'
 		       })
-		const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
+		const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')
 if(time2 < "23:59"){
 var imageTime = await getBuffer('https://ih1.redbubble.net/image.1702383886.0106/ur,pin_small_front,wide_portrait,750x1000.jpg')
                                         }
