@@ -22,9 +22,9 @@ const settings = JSON.parse(fs.readFileSync('./settings.json'))
 baterai = 'unknown'
 charging = 'unknown'
 
-const time = moment.tz('Asia/Jakarta').format('HH:mm:ss')			
-const wita = moment.tz('Asia/Makassar').format('HH:mm:ss')			
-const wit = moment.tz('Asia/Jayapura').format('HH:mm:ss')	
+const time = moment.tz('Asia/Kolkata').format('HH:mm:ss')			
+const wita = moment.tz('Asia/Kolkata').format('HH:mm:ss')			
+const wit = moment.tz('Asia/Kolkata').format('HH:mm:ss')	
 
 var date = new Date();
 
@@ -141,18 +141,18 @@ const starts = async (dogexeon = new WAConnection()) => {
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-	console.log(color('\n> YT CHANNEL: Xeon ','silver'))
-console.log(color('> GITHUB: DGXeon ','silver'))
-console.log(color('> WA NUMBER: +916909137213 ','silver'))
-console.log(color('  Xeon Bot Inc. 2021','mediumseagreen'))
-	dogexeon.browserDescription = [ 'Subscribe Xeon', 'ubuntu', '3.0' ]
+	console.log(color('\n> YT CHANNEL: JID MODS','silver'))
+console.log(color('> GITHUB: J-I-H-A-D ','silver'))
+console.log(color('> WA NUMBER: +917736703116 ','silver'))
+console.log(color('  Jhad Bot Inc. 2022','mediumseagreen'))
+	dogexeon.browserDescription = [ 'Subscribe Jihad', 'ubuntu', '3.0' ]
 
 	dogexeon.on('qr', () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color('SCAN THE QR'))
 })
 	dogexeon.on('credentials-updated', () => {
 		fs.writeFileSync('./session.json', JSON.stringify(dogexeon.base64EncodedAuthInfo(), null, '\t'))
-		info('2', 'Doge Bot Loading...')
+		info('2', 'Selly V3 Loading...')
 	})
 	fs.existsSync('./session.json') && dogexeon.loadAuthInfo('./session.json')
 	dogexeon.on('connecting', () => {
@@ -213,7 +213,7 @@ dogexeon.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
    // owner
 
 
-    const htod = "916909137213@s.whatsapp.net"
+    const htod = "917736703116@s.whatsapp.net"
 
     
 
@@ -303,9 +303,9 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 				img = await getBuffer(ppUrl)
 
-				teks = `🐶 *Hɪ* @${num.split('@')[0]}\n🐶 *Bɪᴏ* : *${thu.status}*\n🐶 *Mᴇᴍʙᴇʀs : ${memeg}*\n🐶 *Wᴇʟᴄᴏᴍᴇ Tᴏ ${mdata.subject}*\n🐶 *ᴅᴏɴᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ʀᴇᴀᴅ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*`
+				teks = `🐶 *Hɪ* @${num.split('@')[0]}\n🐶 *Bɪᴏ* : *${thu.status}*\n🐶 *Mᴇᴍʙᴇʀs : ${memeg}*\n🐶 *Mᴇᴍʙᴇʀs Tᴏ ${mdata.subject}*\n🐶 *ᴅᴏɴᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ʀᴇᴀᴅ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*`
 
-				sendButImage(anu.jid, teks, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, img,but = [{buttonId:`getdescgc`, 
+				sendButImage(anu.jid, teks, `SΣLLΨ ∇3`, img,but = [{buttonId:`getdescgc`, 
 
                buttonText:{displayText: 'WELCOME'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
@@ -327,7 +327,7 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 				teks = `*Gᴏᴏᴅ Bʏᴇ* 👋\n@${num.split('@')[0]}\n*𝙷𝚘𝚙𝚎𝚏𝚞𝚕𝚕𝚢 𝚃𝚑𝚎𝚛𝚎 𝚆𝚘𝚗𝚝 𝙱𝚎 𝙱𝚞𝚛𝚍𝚎𝚗 𝙷𝚎𝚛𝚎 𝙰𝚗𝚢𝚖𝚘𝚛𝚎* 🐶`
 
-				sendButImage(anu.jid, teks, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `GOODBYE !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
+				sendButImage(anu.jid, teks, `SΣLLΨ ∇3`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `GOODBYE !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
 			} else if (anu.action == 'promote') {
 
@@ -400,8 +400,8 @@ dogexeon.on('group-update', async (anu) => {
 	})
     dogexeon.on('chat-update', async (message) => {
         require('./XeonDoge.js')(dogexeon, message)
-        ownerNumber = ["916909137213@s.whatsapp.net","916909137213@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "916909137213@s.whatsapp.net"
+        ownerNumber = ["917736703116@s.whatsapp.net","917736703116@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "917736703116@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })  
 }
